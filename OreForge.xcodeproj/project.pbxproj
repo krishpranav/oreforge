@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13656E22EB10ACB003BD34C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B13656E12EB10ACB003BD34C /* Alamofire */; };
+		B13656E52EB10AFD003BD34C /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = B13656E42EB10AFD003BD34C /* Yams */; };
+		B13656E82EB10B79003BD34C /* SwiftCBOR in Frameworks */ = {isa = PBXBuildFile; productRef = B13656E72EB10B79003BD34C /* SwiftCBOR */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B13656C42EB10A3E003BD34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13656AA2EB10A3D003BD34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13656B12EB10A3D003BD34C;
+			remoteInfo = OreForge;
+		};
+		B13656CE2EB10A3E003BD34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B13656AA2EB10A3D003BD34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13656B12EB10A3D003BD34C;
+			remoteInfo = OreForge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B13656B22EB10A3D003BD34C /* OreForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OreForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13656C32EB10A3E003BD34C /* OreForgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreForgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13656CD2EB10A3E003BD34C /* OreForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B13656B42EB10A3D003BD34C /* OreForge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OreForge;
+			sourceTree = "<group>";
+		};
+		B13656C62EB10A3E003BD34C /* OreForgeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OreForgeTests;
+			sourceTree = "<group>";
+		};
+		B13656D02EB10A3E003BD34C /* OreForgeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OreForgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13656AF2EB10A3D003BD34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13656E52EB10AFD003BD34C /* Yams in Frameworks */,
+				B13656E22EB10ACB003BD34C /* Alamofire in Frameworks */,
+				B13656E82EB10B79003BD34C /* SwiftCBOR in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13656C02EB10A3E003BD34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13656CA2EB10A3E003BD34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13656A92EB10A3D003BD34C = {
+			isa = PBXGroup;
+			children = (
+				B13656B42EB10A3D003BD34C /* OreForge */,
+				B13656C62EB10A3E003BD34C /* OreForgeTests */,
+				B13656D02EB10A3E003BD34C /* OreForgeUITests */,
+				B13656B32EB10A3D003BD34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13656B32EB10A3D003BD34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13656B22EB10A3D003BD34C /* OreForge.app */,
+				B13656C32EB10A3E003BD34C /* OreForgeTests.xctest */,
+				B13656CD2EB10A3E003BD34C /* OreForgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13656B12EB10A3D003BD34C /* OreForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13656D72EB10A3E003BD34C /* Build configuration list for PBXNativeTarget "OreForge" */;
+			buildPhases = (
+				B13656AE2EB10A3D003BD34C /* Sources */,
+				B13656AF2EB10A3D003BD34C /* Frameworks */,
+				B13656B02EB10A3D003BD34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B13656B42EB10A3D003BD34C /* OreForge */,
+			);
+			name = OreForge;
+			packageProductDependencies = (
+				B13656E12EB10ACB003BD34C /* Alamofire */,
+				B13656E42EB10AFD003BD34C /* Yams */,
+				B13656E72EB10B79003BD34C /* SwiftCBOR */,
+			);
+			productName = OreForge;
+			productReference = B13656B22EB10A3D003BD34C /* OreForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B13656C22EB10A3E003BD34C /* OreForgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13656DA2EB10A3E003BD34C /* Build configuration list for PBXNativeTarget "OreForgeTests" */;
+			buildPhases = (
+				B13656BF2EB10A3E003BD34C /* Sources */,
+				B13656C02EB10A3E003BD34C /* Frameworks */,
+				B13656C12EB10A3E003BD34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13656C52EB10A3E003BD34C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B13656C62EB10A3E003BD34C /* OreForgeTests */,
+			);
+			name = OreForgeTests;
+			packageProductDependencies = (
+			);
+			productName = OreForgeTests;
+			productReference = B13656C32EB10A3E003BD34C /* OreForgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B13656CC2EB10A3E003BD34C /* OreForgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13656DD2EB10A3E003BD34C /* Build configuration list for PBXNativeTarget "OreForgeUITests" */;
+			buildPhases = (
+				B13656C92EB10A3E003BD34C /* Sources */,
+				B13656CA2EB10A3E003BD34C /* Frameworks */,
+				B13656CB2EB10A3E003BD34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13656CF2EB10A3E003BD34C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B13656D02EB10A3E003BD34C /* OreForgeUITests */,
+			);
+			name = OreForgeUITests;
+			packageProductDependencies = (
+			);
+			productName = OreForgeUITests;
+			productReference = B13656CD2EB10A3E003BD34C /* OreForgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13656AA2EB10A3D003BD34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B13656B12EB10A3D003BD34C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B13656C22EB10A3E003BD34C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B13656B12EB10A3D003BD34C;
+					};
+					B13656CC2EB10A3E003BD34C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B13656B12EB10A3D003BD34C;
+					};
+				};
+			};
+			buildConfigurationList = B13656AD2EB10A3D003BD34C /* Build configuration list for PBXProject "OreForge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13656A92EB10A3D003BD34C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B13656E02EB10ACB003BD34C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B13656E32EB10AFD003BD34C /* XCRemoteSwiftPackageReference "Yams" */,
+				B13656E62EB10B79003BD34C /* XCRemoteSwiftPackageReference "SwiftCBOR" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B13656B32EB10A3D003BD34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13656B12EB10A3D003BD34C /* OreForge */,
+				B13656C22EB10A3E003BD34C /* OreForgeTests */,
+				B13656CC2EB10A3E003BD34C /* OreForgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13656B02EB10A3D003BD34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13656C12EB10A3E003BD34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13656CB2EB10A3E003BD34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13656AE2EB10A3D003BD34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13656BF2EB10A3E003BD34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13656C92EB10A3E003BD34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B13656C52EB10A3E003BD34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13656B12EB10A3D003BD34C /* OreForge */;
+			targetProxy = B13656C42EB10A3E003BD34C /* PBXContainerItemProxy */;
+		};
+		B13656CF2EB10A3E003BD34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13656B12EB10A3D003BD34C /* OreForge */;
+			targetProxy = B13656CE2EB10A3E003BD34C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B13656D52EB10A3E003BD34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B13656D62EB10A3E003BD34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B13656D82EB10A3E003BD34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OreForge/OreForge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OreForge/Preview Content\"";
+				DEVELOPMENT_TEAM = 32QP46JEL2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forge.OreForge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B13656D92EB10A3E003BD34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OreForge/OreForge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OreForge/Preview Content\"";
+				DEVELOPMENT_TEAM = 32QP46JEL2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forge.OreForge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B13656DB2EB10A3E003BD34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32QP46JEL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forge.OreForgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OreForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OreForge";
+			};
+			name = Debug;
+		};
+		B13656DC2EB10A3E003BD34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32QP46JEL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forge.OreForgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OreForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OreForge";
+			};
+			name = Release;
+		};
+		B13656DE2EB10A3E003BD34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32QP46JEL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forge.OreForgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OreForge;
+			};
+			name = Debug;
+		};
+		B13656DF2EB10A3E003BD34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32QP46JEL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forge.OreForgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OreForge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13656AD2EB10A3D003BD34C /* Build configuration list for PBXProject "OreForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13656D52EB10A3E003BD34C /* Debug */,
+				B13656D62EB10A3E003BD34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13656D72EB10A3E003BD34C /* Build configuration list for PBXNativeTarget "OreForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13656D82EB10A3E003BD34C /* Debug */,
+				B13656D92EB10A3E003BD34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13656DA2EB10A3E003BD34C /* Build configuration list for PBXNativeTarget "OreForgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13656DB2EB10A3E003BD34C /* Debug */,
+				B13656DC2EB10A3E003BD34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13656DD2EB10A3E003BD34C /* Build configuration list for PBXNativeTarget "OreForgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13656DE2EB10A3E003BD34C /* Debug */,
+				B13656DF2EB10A3E003BD34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B13656E02EB10ACB003BD34C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		B13656E32EB10AFD003BD34C /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+		B13656E62EB10B79003BD34C /* XCRemoteSwiftPackageReference "SwiftCBOR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/valpackett/SwiftCBOR";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B13656E12EB10ACB003BD34C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B13656E02EB10ACB003BD34C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B13656E42EB10AFD003BD34C /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B13656E32EB10AFD003BD34C /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+		B13656E72EB10B79003BD34C /* SwiftCBOR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B13656E62EB10B79003BD34C /* XCRemoteSwiftPackageReference "SwiftCBOR" */;
+			productName = SwiftCBOR;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B13656AA2EB10A3D003BD34C /* Project object */;
+}
