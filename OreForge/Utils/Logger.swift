@@ -61,3 +61,4 @@ struct Logger {
         os_log("%@", log: osLog, type: osLogType, formattedMessage)
     }
 }
+w
