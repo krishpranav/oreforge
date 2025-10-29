@@ -23,9 +23,9 @@ Whether you're a casual miner or running a mining operation, ORE FORGE gives you
 ### 💎 **Premium User Interface**
 - Glassmorphic design with backdrop blur effects
 - Smooth animations and transitions
-- ✅ Dark mode optimized for reduced eye strain
-- ✅ Real-time data visualization
-- ✅ Responsive layout that adapts to any window size
+- Dark mode optimized for reduced eye strain
+- Real-time data visualization
+- Responsive layout that adapts to any window size
 
 ### ⚡ **Real-Time Mining Dashboard**
 - Live hash rate monitoring (H/s, KH/s, MH/s, GH/s, TH/s, PH/s)
