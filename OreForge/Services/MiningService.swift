@@ -67,6 +67,7 @@ class MiningService: NSObject, ObservableObject {
 
         isRunning = false
         timer?.invalidate()
+        timer = nil
         poolService.disconnect()
         monitoringService.stopMonitoring()
 
@@ -81,6 +82,7 @@ class MiningService: NSObject, ObservableObject {
 
         currentSession?.status = .paused
         timer?.invalidate()
+        timer = nil
     }
 
     func resumeMining() {
@@ -106,10 +108,11 @@ class MiningService: NSObject, ObservableObject {
             session.currentHashRate = baseHashRate
             session.totalHashesComputed += UInt64(baseHashRate)
 
-            if Bool.random(probability: 0.1) {
+            // Fixed: Check probability correctly
+            if randomBool(probability: 0.1) {
                 session.totalSharesAccepted += 1
             }
-            if Bool.random(probability: 0.02) {
+            if randomBool(probability: 0.02) {
                 session.totalSharesRejected += 1
             }
 
@@ -121,7 +124,7 @@ class MiningService: NSObject, ObservableObject {
             w.currentHashRate = totalHashRate / Double(workers.count)
             w.totalHashes += UInt64(w.currentHashRate)
             w.lastUpdate = Date()
-            if Bool.random(probability: 0.08) {
+            if randomBool(probability: 0.08) {
                 w.sharesAccepted += 1
             }
             return w
@@ -155,7 +158,13 @@ class MiningService: NSObject, ObservableObject {
         workers.removeAll { $0.id == worker.id }
     }
 
+    // MARK: - Helper Methods
+    private func randomBool(probability: Double) -> Bool {
+        return Double.random(in: 0.0...1.0) < probability
+    }
+
     deinit {
-        stopMining()
+            timer?.invalidate()
+            timer = nil
     }
 }
